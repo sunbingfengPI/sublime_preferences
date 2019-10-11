@@ -1,0 +1,53 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ActualVim",
+		"Agila Theme",
+		"Clang Format",
+		"ClangAutoComplete",
+		"Codecs33",
+		"ConvertToUTF8",
+		"Cscope",
+		"CTags",
+		"DashDoc",
+		"DoxyDoc",
+		"DoxyDoxygen",
+		"FindKeyConflicts",
+		"Future Funk - Color Scheme",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"HTML5",
+		"HTMLBeautify",
+		"Javascript Beautify",
+		"Jimbly's Clipboard History",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Material Theme",
+		"NeoVintageous",
+		"Origami",
+		"Package Control",
+		"Pretty JSON",
+		"Python 3",
+		"Python Completions",
+		"Python Improved",
+		"SideBarEnhancements",
+		"SublimeLinter-clang",
+		"SublimeLinter-contrib-yaml-lint",
+		"SublimeLinter-cppcheck",
+		"SublimeLinter-cpplint",
+		"SublimeLinter-html-tidy",
+		"Terminal",
+		"Text Pastry",
+		"ToggleNeoVintageous",
+		"Vintage Escape",
+		"VintageColor"
+	],
+	"repositories":
+	[
+	]
+}

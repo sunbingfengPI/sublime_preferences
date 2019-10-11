@@ -1,0 +1,38 @@
+" Type :h vintageousrc for help.
+" The character " (the double quote mark) starts a comment
+" Type :h vintageousrc for help.
+
+let mapleader=,
+
+" Toggle the side bar.
+" To enable side bar toggle when the side bar has focus, see docs above.
+nnoremap <leader>d :NeovintageousToggleSideBar<CR>
+
+" Saving.
+nnoremap <C-s> :w<CR>
+vnoremap <C-s> :w<CR>
+
+" Yank and paste using system clipboard.
+noremap <leader>y "+y
+noremap <leader>Y "+Y
+noremap <leader>p "+p
+noremap <leader>P "+P
+noremap <leader>yy "+Y
+
+" Show me the registers.
+nnoremap <leader>r :reg<CR>
+
+" Show me the symbols.
+nnoremap <leader>f :ShowOverlay overlay=goto text=@<CR>
+nnoremap <leader>i :GotoSymbolInProject<CR>
+" Or if you're using super-keys (disabled by default):
+nnoremap <D-i> :GotoSymbolInProject<CR>
+
+" Windowing aliases (especially useful if you don't enable ctrl-keys keys).
+nnoremap <leader>_ <C-w>_
+nnoremap <leader><bar> <C-w><bar>
+nnoremap <leader>= <C-w>=
+
+" Toggle Zoom. Requires the Origami plugin:
+" https://packagecontrol.io/packages/Origami.
+nnoremap <leader>. :ToggleZoomPane<CR>
